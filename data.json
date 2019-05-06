@@ -1,0 +1,26 @@
+{ "projects": [
+  {
+    "id": 1,
+    "name": "Beaver Restoration Explorer",
+    "description": "",
+    "technologies": [
+      "Ruby on Rails", "Leaflet", "Bootstrap", "PostGIS"
+    ],
+    "live-link": "https://bda-explorer.herokuapp.com/",
+    "git-link": "https://github.com/osu-cascades/bda-explorer",
+    "img-thumb": "#",
+    "img-main": ""
+  },
+  {
+    "id": 2,
+    "name": "Beaver Restoration Explorer",
+    "description": "",
+    "technologies": [
+      "Ruby on Rails", "Leaflet", "Bootstrap", "PostGIS"
+    ],
+    "live-link": "https://bda-explorer.herokuapp.com/",
+    "git-link": "https://github.com/osu-cascades/bda-explorer",
+    "img-thumb": "#",
+    "img-main": "#"
+  }]
+}
