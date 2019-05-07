@@ -1,26 +1,22 @@
 { "projects": [
   {
-    "id": 1,
+    "id": 0,
     "name": "Beaver Restoration Explorer",
-    "description": "",
+    "description": "This is my description",
     "technologies": [
       "Ruby on Rails", "Leaflet", "Bootstrap", "PostGIS"
     ],
-    "live-link": "https://bda-explorer.herokuapp.com/",
-    "git-link": "https://github.com/osu-cascades/bda-explorer",
-    "img-thumb": "#",
-    "img-main": ""
+    "live_link": "https://bda-explorer.herokuapp.com/",
+    "git_link": "https://github.com/osu-cascades/bda-explorer"
   },
   {
-    "id": 2,
-    "name": "Beaver Restoration Explorer",
+    "id": 1,
+    "name": "Salmon Life-Cycle Model",
     "description": "",
     "technologies": [
       "Ruby on Rails", "Leaflet", "Bootstrap", "PostGIS"
     ],
-    "live-link": "https://bda-explorer.herokuapp.com/",
-    "git-link": "https://github.com/osu-cascades/bda-explorer",
-    "img-thumb": "#",
-    "img-main": "#"
+    "live_link": "https://bda-explorer.herokuapp.com/",
+    "git_link": "https://github.com/osu-cascades/bda-explorer"
   }]
 }

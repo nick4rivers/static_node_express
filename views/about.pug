@@ -1,8 +1,6 @@
 extends layout.pug
 
-block content 
-  nav.grid-container.portfolio-breadcrumb
-    a(href='/') ← Back
+block content
   article.grid-container.portfolio-intro.portfolio-project
     .grid-x
       .cell.small-6.medium-9.large-9
@@ -17,10 +15,10 @@ block content
         //- Replace the boilerplate below with your Elevator pitch below.
         .portfolio-bio
           p
-            | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position.
-          
-          hr
-          
+            | Welcome to the site! I'm Nick, and I'm a full stack web developer that's happy geeking out in javascript, rails, or maybe just messing with CSS. Beyond that, I've got a whole other set of expertise using R and Python to answer data-driven questions, and a background in statistics, data analysis, and data visulization. Whether it's the ESRI environment or open source technologies like Q, I also enjoy analysis and display of spatial data using. Thanks for stopping by....
+
+          a(href='/index') My Work →
+
       .cell.portfolio-meta.small-6.medium-2.large-3
         h6 Skills
 
@@ -37,9 +35,9 @@ block content
         ul
           li webernick@icloud.com
         //- Add URLs to the hrefs below to link to your social media accounts.
-        a.button.expanded(href='') LinkedIn
-        a.button.expanded(href='') GitHub
-        a.button.expanded(href='') Twitter
-  nav.grid-container.portfolio-breadcrumb
-    a(href='/') ← Back
+        a.button.expanded(href='https://github.com/webernick79' target='_blank') GitHub
+        a.button.expanded(href='https://www.researchgate.net/profile/Nick_Weber2' target='_blank') ResearchGate
+        a.button.expanded(href='https://www.instagram.com/nicks_river/' target='_blank') Instagram
+  //- TODO: Probably remove this
+
   

@@ -1,0 +1,17 @@
+extends layout.pug
+
+block content
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-12.medium-12.large-12
+
+        //- Add your name.
+        h2= `${error.message} - Status: ${error.status}`
+
+        //- Feel free personalize the title below
+        p.lead.text-light
+          | Somehow you totally blew it, and managed to completely screw up my website. Nice going.....
+
+        
+        nav.grid-container.portfolio-breadcrumb
+          a(href='/') ← Back
