@@ -20,7 +20,7 @@
   },
   {
     "id": 2,
-    "name": "CHaMP Macroinvertebrate Data Management",
+    "name": "CHaMP Field Data Collection and Management",
     "description": "This project required building a fully functional data collection and management platform for collection of salmon habitat survey data within the Pacific northwest. The product was designed for the Columbia Habitat Monitoring Protocol, and was used by approximately 30 field technician to conduct research in remote field settings. Built in Filemaker Pro, the product required building user interaces for iPads and Desktops, and included data QAQC, visulization, custom label creation, and many other features.",
     "technologies": [
       "Filemaker Pro", "iPad", "Desktop", "GIS", "UI Design"

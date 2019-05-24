@@ -10,15 +10,14 @@ const bodyParser = require('body-parser');
 // create a new express app
 const app = express();
 
+// Use 'pug' for templating
+app.set('view engine', 'pug');
+
 // tell express to use body-parser, no extended option, this appears also required for pug
 app.use(bodyParser.urlencoded({extended: false}));
 
 // static files use static route and public folder
 app.use('/static', express.static('public'));
-
-
-// Use 'pug' for templating
-app.set('view engine', 'pug');
 
 // ------------------- STATIC DATA FILE -----------------
 const data = require('./data.json');
