@@ -2,9 +2,9 @@
   {
     "id": 0,
     "name": "Beaver Restoration Explorer",
-    "description": "This is my description",
+    "description": "The beaver dam analog (BDA) restoration explorer was developed to share the location and basic attributes of stream restoration projects in Oregon. The site was my introduction to Rails, and has a bunch of cool features including: user authentication, spatial rendering with leaflet, and full CRUD support. The layout is pretty simple and uses the Bootstrap framework.",
     "technologies": [
-      "Ruby on Rails", "Leaflet", "Bootstrap", "PostGIS"
+      "Ruby on Rails", "Leaflet", "Bootstrap", "PostGIS", "Heroku"
     ],
     "live_link": "https://bda-explorer.herokuapp.com/",
     "git_link": "https://github.com/osu-cascades/bda-explorer"
@@ -12,11 +12,19 @@
   {
     "id": 1,
     "name": "Salmon Life-Cycle Model",
-    "description": "",
+    "description": "This project is was developed for the Confederated Tribes of the Warm Springs and provides a framework for modelling the probability of salmon population extinction under various climate and habitat restoration scenarios. To make the model implementation more user friendly I created a front-end in Excel that uses Visual Basic scripts to generate the model input files that get used by R. Within R, the stochastic model uses a Monte Carlo approach to estimate extinction probabilities based on estimates of salmon population demographics and restoration potential over a user specified time horizon.",
     "technologies": [
-      "Ruby on Rails", "Leaflet", "Bootstrap", "PostGIS"
+      "R", "Tidyverse", "ggplot2", "Monte Carlo", "Visual Basic"
     ],
-    "live_link": "https://bda-explorer.herokuapp.com/",
-    "git_link": "https://github.com/osu-cascades/bda-explorer"
+    "git_link": "https://github.com/webernick79/Life-Cycle-Model"
+  },
+  {
+    "id": 2,
+    "name": "CHaMP Macroinvertebrate Data Management",
+    "description": "This project required building a fully functional data collection and management platform for collection of salmon habitat survey data within the Pacific northwest. The product was designed for the Columbia Habitat Monitoring Protocol, and was used by approximately 30 field technician to conduct research in remote field settings. Built in Filemaker Pro, the product required building user interaces for iPads and Desktops, and included data QAQC, visulization, custom label creation, and many other features.",
+    "technologies": [
+      "Filemaker Pro", "iPad", "Desktop", "GIS", "UI Design"
+    ],
+    "project_link": "https://www.champmonitoring.org/"
   }]
 }
