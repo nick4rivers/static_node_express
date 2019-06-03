@@ -41,23 +41,21 @@ app.get('/project/:id', (req, res) => {
 });
 
 
-
 // --------------- ERROR HANDLING -------------------------
 app.use((req, res, next) => {
-  const err = new Error('Not Found');
+  const err = new Error('Oh Crap!!');
   err.status = 404;
   next(err);
 });
-  
+
 // General error handler
 app.use((err, req, res, next) => {
   res.locals.error = err;
   res.status(err.status);
   // call my template, and pass the err object
-  console.log(err);
   res.render('error', err);
+  console.log(err.message + " - " + err.status);
 });
-
 
 // Nodemon development server
 app.listen(3000, () => {
