@@ -2,7 +2,7 @@ extends layout.pug
 
 block content 
   nav.grid-container.portfolio-breadcrumb
-    a(href='/index') ← Back
+    a(href='/') ← Back
   article.grid-container.portfolio-intro.portfolio-project
     .grid-x
       .cell.small-6.medium-9.large-9
@@ -24,8 +24,8 @@ block content
         //- Use template literals and interpolation to add URLs to the hrefs below so they link to the repo and the live version of each project.
         if live_link
           a.button.expanded(href= `${live_link}` target="_blank") Live Demo
-        if git_link
-          a.button.expanded(href= `${git_link}` target="_blank") GitHub Repo
+        if github_link
+          a.button.expanded(href= `${github_link}` target="_blank") GitHub Repo
         if project_link
           a.button.expanded(href= `${project_link}` target="_blank") Project Home
 

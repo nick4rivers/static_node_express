@@ -24,12 +24,12 @@ const data = require('./data.json');
 // const myProjects = data.projects;
 
 // -------------------- ROUTES -------------------
-app.get('/', (req, res) => {
+app.get('/about', (req, res) => {
   res.render('about');
 });
 
 // index - photos should be 550 X 550
-app.get('/index', (req, res) => {
+app.get('/', (req, res) => {
   res.render('index', data);
 });
 

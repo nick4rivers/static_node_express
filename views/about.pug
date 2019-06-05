@@ -1,6 +1,8 @@
 extends layout.pug
 
 block content
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
   article.grid-container.portfolio-intro.portfolio-project
     .grid-x
       .cell.small-6.medium-9.large-9
@@ -14,20 +16,22 @@ block content
 
         //- Replace the boilerplate below with your Elevator pitch below.
         .portfolio-bio
-          p.lead.text-light
+          p
             | Welcome to the site! I'm Nick, aspiring full stack web developer that's happy geeking out in javascript, rails, or maybe just messing with CSS. Beyond that, I've got a whole other set of expertise using R and Python to answer data-driven questions, and a background in statistics, data analysis, and data visulization. Whether it's the ESRI environment or open source technologies like Q, I also enjoy analysis and visulization of spatial data. Thanks for stopping by....
-
-          a(href='/index') My Work →
-
       .cell.portfolio-meta.small-6.medium-2.large-3
         h6 Skills
 
         //- Replace the text in the li tags below with your own skills.  At this point, you should be able to list at least ten skills.
         ul
           li Javascript
-          li Express, Node
-          li Python
+          li HTML
+          li CSS
+          li Node
+          li Express
+          li Python and Django
           li Ruby on Rails
+          li GIS
+          li Statics and Data Vis.
           li R Program
         h6 Contact
 
@@ -38,5 +42,6 @@ block content
         //- Add URLs to the hrefs below to link to your social media accounts.
         a.button.expanded(href='https://github.com/webernick79' target='_blank') GitHub
         a.button.expanded(href='https://www.researchgate.net/profile/Nick_Weber2' target='_blank') ResearchGate
-
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
   

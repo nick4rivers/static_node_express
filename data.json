@@ -7,24 +7,75 @@
       "Ruby on Rails", "Leaflet", "Bootstrap", "PostGIS", "Heroku"
     ],
     "live_link": "https://bda-explorer.herokuapp.com/",
-    "git_link": "https://github.com/osu-cascades/bda-explorer"
+    "github_link": "https://github.com/osu-cascades/bda-explorer"
   },
   {
     "id": 1,
+    "name": "Javascript Random Quote Generator",
+    "description": "This was really my first introduction to vanilla javascript. Working on this project totally opened my mind about just how powerful and flexible javascript can be. I also got a good introduction to using GitHub and hosting live sites on GitHub",
+    "technologies": [
+      "Javascript", "Git"
+    ],
+    "github_link": "https://github.com/webernick79/random_quote",
+    "live_link": "https://webernick79.github.io/random_quote/"
+  },
+  {
+    "id": 2,
+    "name": "JQUERY Interactive Form",
+    "description": "My first time really working with Jquery. Extremely enlightening, total control of the DOM",
+    "technologies": [
+      "Javascript", "JQUERY"
+    ],
+    "github_link": "https://github.com/webernick79/interactive_form",
+    "live_link": "https://webernick79.github.io/interactive_form/"
+  },
+  {
+    "id": 3,
+    "name": "Pagination with Javascript",
+    "description": "This project primarily focused on using vanilla javascript to handle searching and filtering in order to set up a dynamic site that can handle list pagination.",
+    "technologies": [
+      "Javascript"
+    ],
+    "github_link": "https://github.com/webernick79/list_pagination_filter",
+    "live_link": "https://webernick79.github.io/list_pagination_filter/"
+  },
+  {
+    "id": 4,
+    "name": "Object-Oriented JS Game",
+    "description": "My complete crash course in object oriented javascript. Very engaging project focusing on development of an interactive game",
+    "technologies": [
+      "Javascript", "Object-Oriented Programming"
+    ],
+    "github_link": "https://github.com/webernick79/oop_game",
+    "live_link": "https://webernick79.github.io/oop_game/"
+  },
+  {
+    "id": 5,
     "name": "Salmon Life-Cycle Model",
     "description": "This project is was developed for the Confederated Tribes of the Warm Springs and provides a framework for modelling the probability of salmon population extinction under various climate and habitat restoration scenarios. To make the model implementation more user friendly I created a front-end in Excel that uses Visual Basic scripts to generate the model input files that get used by R. Within R, the stochastic model uses a Monte Carlo approach to estimate extinction probabilities based on estimates of salmon population demographics and restoration potential over a user specified time horizon.",
     "technologies": [
       "R", "Tidyverse", "ggplot2", "Monte Carlo", "Visual Basic"
     ],
-    "git_link": "https://github.com/webernick79/Life-Cycle-Model"
+    "github_link": "https://github.com/webernick79/Life-Cycle-Model"
   },
   {
-    "id": 2,
+    "id": 6,
     "name": "CHaMP Field Data Collection and Management",
     "description": "This project required building a fully functional data collection and management platform for collection of salmon habitat survey data within the Pacific northwest. The product was designed for the Columbia Habitat Monitoring Protocol, and was used by approximately 30 field technician to conduct research in remote field settings. Built in Filemaker Pro, the product required building user interaces for iPads and Desktops, and included data QAQC, visulization, custom label creation, and many other features.",
     "technologies": [
       "Filemaker Pro", "iPad", "Desktop", "GIS", "UI Design"
     ],
     "project_link": "https://www.champmonitoring.org/"
-  }]
+  },
+  {
+    "id": 7,
+    "name": "Async Requests with FETCH",
+    "description": "This is my 5th project on the full stack javascript tech. degree path, and a great introduction to using modern javascript to communicate with API's. This simple project taps into the RANDOM USER GENERATOR API to return some JSON which is formatted and rendered to the browser.",
+    "technologies": [
+      "Asynchronous Javascript", "Fetch", "API Requests"
+    ],
+    "project_link": "https://webernick79.github.io/05_requests_api/",
+    "github_link": "https://github.com/webernick79/05_requests_api"
+  }
+]
 }
